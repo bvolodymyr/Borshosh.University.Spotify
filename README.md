@@ -19,5 +19,9 @@ Spotify is a dynamic music streaming service that offers users access to an exte
 ## Project Task Decomposition
 Soon
 
-### Week 1:
-Soon
+### Week 1: 
+- Implement feature: User Registration 
+- Set up Azure SQL Database 
+- Create Swagger documentation for API endpoints 
+- Configure Google OAuth 2.0 for user authentication 
+- Create initial project structure on GitHub repository 
