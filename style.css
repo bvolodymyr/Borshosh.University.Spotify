@@ -1,0 +1,180 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  background-color: #424040;
+  position: relative;
+}
+
+/* Заголовок */
+header {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  float: left;
+  margin: 10px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.search-bar {
+  float: right;
+  margin: 10px;
+}
+
+.search-bar input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.profile {
+  float: right;
+  margin: 10px;
+}
+
+.profile img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.profile p {
+  margin-left: -7px;
+  line-height: 10px;
+}
+
+/* Основна частина */
+main {
+  padding: 20px;
+}
+
+/* Рекомендації */
+.recommendations {
+  display: grid;
+  margin-bottom: 20px;
+}
+
+.recommendations h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.recommendations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendations li {
+  float: left;
+  margin: 10px;
+  width: 200px;
+}
+
+.recommendations li img {
+  width: 100%;
+}
+
+.recommendations li p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Відкрийте для себе */
+.discover {
+  display: grid;
+  margin-bottom: 20px;
+}
+
+.discover h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.discover ul {
+  list-style: none;
+  padding: 0;
+}
+
+.discover li {
+  float: left;
+  margin: 10px;
+  width: 200px;
+}
+
+.discover li img {
+  width: 100%;
+}
+
+.discover li p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Ваша бібліотека */
+.library {
+  margin-bottom: 20px;
+}
+
+.library h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.library ul {
+  list-style: none;
+  padding: 0;
+}
+
+.library li {
+  float: left;
+  margin: 10px;
+  width: 200px;
+}
+
+.library li img {
+  width: 100%;
+}
+
+.library li p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+footer {
+    background-color: #191b28;
+    color: #b3b3b3;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  float: left;
+  margin: 10px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer p {
+  text-align: center;
+}
