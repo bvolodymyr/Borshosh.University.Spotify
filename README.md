@@ -22,15 +22,40 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Author
+Volodymyr Borshosh
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+mugivaraq13@gmail.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+https://t.me/@mugivaraq
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Project Documentation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Spotify is a dynamic music streaming service that offers users access to an extensive library of songs, podcasts, and playlists. With an intuitive interface and personalized recommendations, users can discover new music tailored to their tastes, create custom playlists, and enjoy seamless streaming across devices. 
+
+Week 1: 
+
+- Implement feature: User Registration ✔️
+- Set up Azure SQL Database (not Azure) ✔️
+- Create Swagger documentation for API endpoints 
+- Configure Google OAuth 2.0 for user authentication 
+- Create initial project structure on GitHub repository ✔️
+
+Week 2: 
+
+- Implement feature: Personalized Recommendations 
+- Integrate Entity Framework for database interactions 
+- Develop architecture diagram for project documentation 
+- Set up Continuous Integration/Continuous Delivery pipeline 
+- Write unit tests for user registration functionality
+
+  Week 3: 
+
+- Implement feature: Playlist Creation ✔️
+- Integrate Spotify API for music library access 
+- Develop infrastructure diagram for project documentation 
+- Write getting started documentation for local project setup ✔️
+- Execute integration tests for playlist creation endpoint ✔️
+
+
