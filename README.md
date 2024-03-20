@@ -39,7 +39,7 @@ Week 1:
 - Implement feature: User Registration ✔️
 - Set up Azure SQL Database (not Azure) ✔️
 - Create Swagger documentation for API endpoints 
-- Configure Google OAuth 2.0 for user authentication 
+- Configure Google OAuth 2.0 for user authentication ✔️
 - Create initial project structure on GitHub repository ✔️
 
 Week 2: 
