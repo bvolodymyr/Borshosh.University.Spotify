@@ -29,8 +29,8 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
         font-medium
         cursor-pointer
         hover:text-white
-        transition
         text-neutral-400
+        transition
         py-1`,
         active && "text-white"
         )

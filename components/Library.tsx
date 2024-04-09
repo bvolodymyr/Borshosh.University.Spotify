@@ -1,7 +1,7 @@
 "use client";
 
 import { TbPlaylist } from "react-icons/tb";
-import { AiOutlinePlus } from "react-icons/ai";
+import { MdOutlineFileUpload } from "react-icons/md";
 
 import { Song } from "@/types";
 import useUploadModal from "@/hooks/useUploadModal";
@@ -9,6 +9,8 @@ import { useUser } from "@/hooks/useUser";
 import useAuthModal from "@/hooks/useAuthModal";
 import MediaItem from "./MediaItem";
 import useOnPlay from "@/hooks/useOnPlay";
+import { MdOutlineCreateNewFolder } from "react-icons/md";
+// import CreatePlaylistModal from "./CreatePlaylistModal";
 
 
 interface LibraryProps {
@@ -21,10 +23,18 @@ const Library: React.FC<LibraryProps> = ({
   const { user } = useUser();
   const uploadModal = useUploadModal();
   const authModal = useAuthModal();
+  // const createPlaylistModal = CreatePlaylistModal();
 
   const onPlay= useOnPlay(songs);
 
 
+  // const createOnClick = () => {
+  //   if (!user) {
+  //     return authModal.onOpen();
+  //   }
+
+  //   return createPlaylistModal.onOpen();
+  // }
 
   const onClick = () => {
     if (!user) {
@@ -43,15 +53,36 @@ const Library: React.FC<LibraryProps> = ({
             Your Library
           </p>
         </div>
-        <AiOutlinePlus 
+        <span 
+    className="
+      text-neutral-400 
+      cursor-pointer 
+      hover:text-white 
+      transition
+    "
+    onClick={onClick}
+    style={{ marginRight: "50px" }}
+  ></span>
+        <MdOutlineFileUpload 
           onClick={onClick} 
           size={20} 
+          
           className="
             text-neutral-400 
             cursor-pointer 
             hover:text-white 
             transition
           "
+        />
+        <MdOutlineCreateNewFolder 
+        onClick={() => {}} 
+        size={20} 
+        className="
+          text-neutral-400 
+          cursor-pointer 
+          hover:text-white 
+          transition
+        "
         />
       </div>
       <div className="flex flex-col gap-y-2 mt-4 px-3">
@@ -61,7 +92,9 @@ const Library: React.FC<LibraryProps> = ({
             key={item.id}
             data={item}
             />
+            
         ))}
+        
       </div>
     </div>
    );
