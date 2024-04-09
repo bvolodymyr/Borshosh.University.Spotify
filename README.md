@@ -80,24 +80,6 @@ Drawbacks of this Simplified Architecture:
 Security Risks: Sensitive data like passwords might be vulnerable on the client-side.
 Limited Scalability: Performance might degrade with a growing user base.
 
-+---------------------+
-|       Client        | (Single Tier)
-+---------------------+
-      |
-      v
-+---------------------+
-| Presentation Layer  | (UI, User Interaction)
-+---------------------+
-      |
-      v
-+---------------------+
-|  Data Access Layer   | (Database interaction)
-+---------------------+
-      |
-      v
-+---------------------+
-|        Database     | (Stores user data, music data)
-+---------------------+
 
 ## Project Task Decomposition
 Add your task decomposition here.
