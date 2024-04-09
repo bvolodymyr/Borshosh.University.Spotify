@@ -52,10 +52,32 @@ Week 2:
 
   Week 3: 
 
-- Implement feature: Playlist Creation ✔️
+- Implement feature: Playlist Creation 
 - Integrate Spotify API for music library access 
 - Develop infrastructure diagram for project documentation 
 - Write getting started documentation for local project setup ✔️
-- Execute integration tests for playlist creation endpoint ✔️
+- Execute integration tests for playlist creation endpoint 
 
+Week 4: 
 
+- Implement feature: Discover Weekly
+- Set up Storage Account for media file storage 
+- Define project tasks decomposition for project documentation 
+- Develop Postman collection for API testing 
+- Execute unit tests for personalized recommendations algorithm
+
+  Week 5: 
+
+- Implement feature: Podcast Streaming 
+- Integrate Service Bus for message queueing 
+- Write project documentation outlining architecture and infrastructure 
+- Write user documentation for using the platform 
+- Execute integration tests for podcast streaming endpoint
+
+  Week 6: 
+
+- Implement feature: Search Functionality ✔️
+- Refactor codebase for improved maintainability 
+- Write test cases for user authentication flows 
+- Update README.md file on GitHub repository ✔️
+- Execute unit tests for search functionality 
