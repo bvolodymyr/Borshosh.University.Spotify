@@ -106,7 +106,7 @@ Week 3:
 
 - Implement feature: Playlist Creation 
 - Integrate Spotify API for music library access 
-- Develop infrastructure diagram for project documentation ✔️
+- Develop infrastructure diagram for project documentation 
 - Write getting started documentation for local project setup ✔️
 - Execute integration tests for playlist creation endpoint 
 
@@ -135,7 +135,7 @@ Week 5:
 Week 6: 
 
 - Implement feature: Search Functionality ✔️
-- Refactor codebase for improved maintainability ✔️
+- Refactor codebase for improved maintainability 
 - Write test cases for user authentication flows 
 - Update README.md file on GitHub repository ✔️
 - Execute unit tests for search functionality 
