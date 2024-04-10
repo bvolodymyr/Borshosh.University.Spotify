@@ -82,7 +82,6 @@ Limited Scalability: Performance might degrade with a growing user base.
 
 
 ## Project Task Decomposition
-Add your task decomposition here.
 
 Week 1: 
 
