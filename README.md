@@ -154,11 +154,11 @@ Week 7:
 
 Week 8: 
 
-- Implement feature: Offline Listening 
+- Implement feature: Player Functionality ✔️
 - Implement caching mechanism for improved performance 
-- Write user documentation for offline listening feature 
+- Write user documentation for player functionality feature 
 - Update README.md file with deployment instructions 
-- Execute unit tests for offline listening functionality 
+- Execute unit tests for functionality feature functionality 
 
  
 
