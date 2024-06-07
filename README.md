@@ -25,6 +25,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+List of Application Features:
+
+• User Registration: Users can create accounts using their Google credentials, enabling seamless access to the platform.
+• Personalized Recommendations: Spotify utilizes user data and listening history to curate personalized playlists and recommendations for each individual user.
+• Playlist Creation: Users can create custom playlists by adding songs from the extensive library, organizing them according to their preferences.
+• Discover Weekly: A weekly curated playlist featuring new music recommendations based on the user's listening habits and preferences.
+• Podcast Streaming: In addition to music, users can access and stream a wide range of podcasts covering various topics and genres.
+• Search Functionality: Users can search for specific songs, artists, albums, or podcasts, ensuring easy access to desired content.
+• Social Sharing: Users can share their favorite songs, playlists, and podcasts with friends and followers on social media platforms.
+• Player Functionality: includes core features like play, pause, stop, volume control in media players.
+• Artist Radio: Users can create personalized radio stations based on their favorite artists, allowing for continuous playback of similar music.
+• Concert Recommendations: Based on user preferences and location data, Spotify provides recommendations for upcoming concerts and live events.
+• Lyrics Integration: Users can view synchronized lyrics while listening to songs, enhancing the overall listening experience.
+• Customizable Profiles: Users can personalize their profiles with profile pictures, bios, and other customizable features.
+
+
 Welcome to Spotify Clone!
 This guide will walk you through the basics of using our music streaming platform. Get ready to discover and enjoy your favorite tunes!
 
